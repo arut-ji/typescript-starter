@@ -1,1 +1,5 @@
-console.log('Hello World');
+export class GreeterService {
+  greet(thing: string): string {
+    return `Hello ${thing}`;
+  }
+}
